@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MonthlyChart } from "@/components/monthly-chart";
+import { destacados } from "@/config/destacados";
 import { getRepository } from "@/lib/datos";
 import { formatSoles } from "@/lib/format";
 import type { Business } from "@/lib/types";
@@ -57,8 +58,17 @@ const testimonials = [
   },
 ];
 
+function orderedBusinesses(businesses: Business[]): Business[] {
+  const order = new Map(destacados.map((slug, index) => [slug, index]));
+  return [...businesses].sort((left, right) => {
+    const leftRank = order.get(left.slug) ?? Number.MAX_SAFE_INTEGER;
+    const rightRank = order.get(right.slug) ?? Number.MAX_SAFE_INTEGER;
+    return leftRank - rightRank;
+  });
+}
+
 export default async function HomePage() {
-  const businesses = await getRepository().listBusinesses();
+  const businesses = orderedBusinesses(await getRepository().listBusinesses());
 
   return (
     <main>
