@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { formatSoles, todayInLima } from "@/lib/format";
-import type { Business, Reservation, Service } from "@/lib/types";
+import { todayInLima } from "@/lib/format";
+import type { Business, Reservation } from "@/lib/types";
 
 type HoursResponse = {
   horas?: string[];
@@ -127,25 +127,6 @@ export function BookingForm({ business }: { business: Business }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-8">
-      <fieldset>
-        <legend className="text-lg font-bold text-slate-900">1. Elige el servicio</legend>
-        <div className="mt-4 grid gap-3">
-          {business.servicios.map((item) => (
-            <ServiceOption
-              key={item.id}
-              service={item}
-              selected={item.id === serviceId}
-              onSelect={() => {
-                setServiceId(item.id);
-                setSelectedHour("");
-                setHoursStatus("loading");
-                setHoursMessage(null);
-              }}
-            />
-          ))}
-        </div>
-      </fieldset>
-
       <div>
         <label htmlFor="fecha" className="text-lg font-bold text-slate-900">
           2. Elige el día
@@ -236,32 +217,5 @@ export function BookingForm({ business }: { business: Business }) {
         {submitting ? "Guardando…" : "Confirmar reserva"}
       </button>
     </form>
-  );
-}
-
-function ServiceOption({
-  service,
-  selected,
-  onSelect,
-}: {
-  service: Service;
-  selected: boolean;
-  onSelect: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onSelect}
-      aria-pressed={selected}
-      className={`flex items-center justify-between rounded-2xl border px-4 py-4 text-left ${
-        selected ? "border-teal-700 bg-teal-50" : "border-slate-200 bg-white"
-      }`}
-    >
-      <span>
-        <span className="block font-semibold text-slate-900">{service.nombre}</span>
-        <span className="text-sm text-slate-500">{service.duracionMin} min</span>
-      </span>
-      <span className="font-bold text-teal-800">{formatSoles(service.precioSoles)}</span>
-    </button>
   );
 }
