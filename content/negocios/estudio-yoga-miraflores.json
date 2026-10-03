@@ -1,0 +1,24 @@
+{
+  "slug": "estudio-yoga-miraflores",
+  "nombre": "Estudio Yoga Miraflores",
+  "rubro": "Estudio de yoga",
+  "distrito": "Miraflores",
+  "descripcion": "Clases de yoga y meditación en un estudio luminoso de Miraflores. Grupos pequeños y horarios de mañana, tarde y domingo.",
+  "telefonoWhatsapp": "51955551234",
+  "colorMarca": "#5b21b6",
+  "horario": {
+    "lunes": { "abre": "07:00", "cierra": "21:00" },
+    "martes": { "abre": "07:00", "cierra": "21:00" },
+    "miercoles": { "abre": "07:00", "cierra": "21:00" },
+    "jueves": { "abre": "07:00", "cierra": "21:00" },
+    "viernes": { "abre": "07:00", "cierra": "21:00" },
+    "sabado": { "abre": "08:00", "cierra": "14:00" },
+    "domingo": { "abre": "09:00", "cierra": "12:00" }
+  },
+  "servicios": [
+    { "id": "clase-grupal", "nombre": "Clase grupal", "duracionMin": 60, "precioSoles": 35 },
+    { "id": "clase-privada", "nombre": "Clase privada", "duracionMin": 60, "precioSoles": 90 },
+    { "id": "meditacion", "nombre": "Meditación guiada", "duracionMin": 45, "precioSoles": 30 },
+    { "id": "prenatal", "nombre": "Yoga prenatal", "duracionMin": 60, "precioSoles": 45 }
+  ]
+}

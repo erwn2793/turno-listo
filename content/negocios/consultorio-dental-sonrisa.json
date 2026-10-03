@@ -1,0 +1,25 @@
+{
+  "slug": "consultorio-dental-sonrisa",
+  "nombre": "Consultorio Dental Sonrisa",
+  "rubro": "Consultorio dental",
+  "distrito": "San Borja",
+  "descripcion": "Odontología para toda la familia en San Borja. Consultas, limpiezas y blanqueamiento con hora exacta, sin sala de espera llena.",
+  "telefonoWhatsapp": "51912345678",
+  "colorMarca": "#0f766e",
+  "horario": {
+    "lunes": { "abre": "08:00", "cierra": "18:00" },
+    "martes": { "abre": "08:00", "cierra": "18:00" },
+    "miercoles": { "abre": "08:00", "cierra": "18:00" },
+    "jueves": { "abre": "08:00", "cierra": "18:00" },
+    "viernes": { "abre": "08:00", "cierra": "18:00" },
+    "sabado": { "abre": "09:00", "cierra": "13:00" },
+    "domingo": { "cerrado": true }
+  },
+  "servicios": [
+    { "id": "consulta", "nombre": "Consulta de evaluación", "duracionMin": 30, "precioSoles": 80 },
+    { "id": "limpieza", "nombre": "Limpieza dental", "duracionMin": 45, "precioSoles": 120 },
+    { "id": "blanqueamiento", "nombre": "Blanqueamiento", "duracionMin": 60, "precioSoles": 250 },
+    { "id": "curacion", "nombre": "Curación simple", "duracionMin": 40, "precioSoles": 90 },
+    { "id": "extraccion", "nombre": "Extracción simple", "duracionMin": 40, "precioSoles": 100 }
+  ]
+}
