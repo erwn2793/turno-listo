@@ -69,3 +69,7 @@ Hay tres locales de Lima:
 - Estudio Yoga Miraflores, en Miraflores
 
 La clave del panel de ejemplo está en `.env.example` (`NEXT_PUBLIC_ADMIN_KEY`).
+
+## Notas
+
+Cambios en la documentación del repositorio.
