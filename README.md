@@ -77,3 +77,5 @@ Cambios en la documentación del proyecto.
 Clona el repositorio antes de correr `npm install`.
 
 Si la portada abre en el navegador, la instalación ya funciona.
+
+Listo para la primera sesión.
