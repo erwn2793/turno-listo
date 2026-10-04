@@ -1,5 +1,7 @@
 # TurnoListo
 
+[![CI](https://github.com/erwn2793/turno-listo/actions/workflows/ci.yml/badge.svg)](https://github.com/erwn2793/turno-listo/actions/workflows/ci.yml)
+
 TurnoListo es un SaaS de reservas para negocios locales del Perú: barberías, consultorios y estudios. El cliente elige servicio, día y hora. El negocio ve las citas en un panel.
 
 Este repositorio es el proyecto del curso de despliegue continuo con Vercel. En esta fase no hay base de datos: los negocios viven en archivos JSON y las reservas nuevas se guardan en memoria.
