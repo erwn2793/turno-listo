@@ -1,1 +1,1 @@
-export const destacados: string[] = ["barberia-don-lucho", "consultorio-dental-sonrisa", "estudio-yoga-miraflores", "market-pepito-test"];
+export const destacados: string[] = ["barberia-don-lucho", "consultorio-dental-sonrisa", "estudio-yoga-miraflores", "veterinaria-dog-pet", "market-pepito-test"];
