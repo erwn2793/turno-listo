@@ -1,0 +1,54 @@
+{
+  "slug": "tienda-moda-urbana",
+
+  "nombre": "Moda Urbana",
+
+  "rubro": "Tienda de ropa",
+
+  "distrito": "Sopocachi",
+
+  "descripcion": "Tienda de ropa urbana y casual en Sopocachi. Encuentra chamarras, poleras, pantalones y buzos con diseños modernos y precios accesibles.",
+
+  "telefonoWhatsapp": "59171234567",
+
+  "colorMarca": "#1e3a5f",
+
+  "horario": {
+
+    "lunes": { "abre": "09:00", "cierra": "20:00" },
+
+    "martes": { "abre": "09:00", "cierra": "20:00" },
+
+    "miercoles": { "abre": "09:00", "cierra": "20:00" },
+
+    "jueves": { "abre": "09:00", "cierra": "20:00" },
+
+    "viernes": { "abre": "09:00", "cierra": "20:00" },
+
+    "sabado": { "abre": "09:00", "cierra": "20:00" },
+
+    "domingo": { "cerrado": true }
+
+  },
+
+  "servicios": [
+
+    { "id": "chamarra-cuero", "nombre": "Chamarra de cuero", "duracionMin": 10, "precioBolivianos": 320 },
+
+    { "id": "chamarra-acolchada", "nombre": "Chamarra acolchada", "duracionMin": 10, "precioBolivianos": 280 },
+
+    { "id": "polera-basica", "nombre": "Polera básica de algodón", "duracionMin": 10, "precioBolivianos": 75 },
+
+    { "id": "polera-oversize", "nombre": "Polera oversize", "duracionMin": 10, "precioBolivianos": 95 },
+
+    { "id": "jean-clasico", "nombre": "Jean clásico", "duracionMin": 10, "precioBolivianos": 180 },
+
+    { "id": "pantalon-cargo", "nombre": "Pantalón cargo", "duracionMin": 10, "precioBolivianos": 210 },
+
+    { "id": "buzo-deportivo", "nombre": "Buzo deportivo", "duracionMin": 10, "precioBolivianos": 160 },
+
+    { "id": "hoodie", "nombre": "Hoodie con capucha", "duracionMin": 10, "precioBolivianos": 190 }
+
+  ]
+
+}
