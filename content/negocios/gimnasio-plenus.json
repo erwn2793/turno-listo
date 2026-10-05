@@ -17,8 +17,8 @@
   },
   "servicios": [
     { "id": "crossfit", "nombre": "Crossfit", "duracionMin": 60, "precioSoles": 50 },
-    { "id": "pesas", "nombre": "Pesas", "duracionMin": 60, "precioSoles": 40 },
-    { "id": "zumba", "nombre": "Zumba", "duracionMin": 60, "precioSoles": 30 },
-    { "id": "spinning", "nombre": "Spinning", "duracionMin": 60, "precioSoles": 40 }
+    { "id": "pesas", "nombre": "Pesas", "duracionMin": 60, "precioSoles": 50 },
+    { "id": "zumba", "nombre": "Zumba", "duracionMin": 60, "precioSoles": 50 },
+    { "id": "spinning", "nombre": "Spinning", "duracionMin": 60, "precioSoles": 50 }
   ]
 }
