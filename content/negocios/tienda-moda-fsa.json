@@ -1,104 +1,94 @@
 {
-  "slug": "moda-urbana-la-paz",
-  "nombre": "Moda Urbana La Paz",
+  "slug": "tienda-moda-urbana",
+  "nombre": "Moda Urbana",
   "rubro": "Tienda de ropa",
   "distrito": "Sopocachi",
-  "descripcion": "Tienda de ropa urbana y casual en La Paz. Encuentra chamarras, poleras, pantalones, buzos y accesorios para hombre y mujer con prendas modernas a precios accesibles.",
+  "descripcion": "Tienda de ropa urbana y casual en Sopocachi. Encuentra chamarras, poleras, pantalones, buzos y prendas de temporada con diseños modernos y precios accesibles.",
+
   "telefonoWhatsapp": "59171234567",
-  "direccion": "Av. Arce, Sopocachi, La Paz",
-  "horario": "Lunes a sábado de 09:00 a 20:00",
-  "moneda": "BOB",
+
+  "colorMarca": "#1e3a5f",
+
+  "horario": {
+    "lunes": { "abre": "09:00", "cierra": "20:00" },
+    "martes": { "abre": "09:00", "cierra": "20:00" },
+    "miercoles": { "abre": "09:00", "cierra": "20:00" },
+    "jueves": { "abre": "09:00", "cierra": "20:00" },
+    "viernes": { "abre": "09:00", "cierra": "20:00" },
+    "sabado": { "abre": "09:00", "cierra": "20:00" },
+    "domingo": { "cerrado": true }
+  },
+
   "productos": [
     {
-      "nombre": "Chamarra de cuero sintético",
+      "id": "chamarra-cuero",
+      "nombre": "Chamarra de cuero",
       "categoria": "Chamarras",
-      "descripcion": "Chamarra moderna de cuero sintético, ideal para uso casual.",
-      "precio": 320,
-      "moneda": "Bs",
-      "stock": 12
+      "descripcion": "Chamarra de cuero sintético con diseño moderno, ideal para uso casual.",
+      "precioBolivianos": 320
     },
     {
+      "id": "chamarra-abrigo",
       "nombre": "Chamarra acolchada",
       "categoria": "Chamarras",
-      "descripcion": "Chamarra acolchada para clima frío, disponible en diferentes tallas.",
-      "precio": 280,
-      "moneda": "Bs",
-      "stock": 15
+      "descripcion": "Chamarra acolchada para clima frío, disponible en diferentes tallas y colores.",
+      "precioBolivianos": 280
     },
     {
-      "nombre": "Polera básica de algodón",
+      "id": "polera-basica",
+      "nombre": "Polera básica",
       "categoria": "Poleras",
-      "descripcion": "Polera de algodón 100% en diferentes colores y tallas.",
-      "precio": 75,
-      "moneda": "Bs",
-      "stock": 25
+      "descripcion": "Polera de algodón de corte clásico, disponible en varios colores.",
+      "precioBolivianos": 75
     },
     {
-      "nombre": "Polera oversize",
+      "id": "polera-oversize",
+      "nombre": "Polera Oversize",
       "categoria": "Poleras",
-      "descripcion": "Polera estilo oversize, ideal para un look urbano.",
-      "precio": 95,
-      "moneda": "Bs",
-      "stock": 18
+      "descripcion": "Polera de corte oversize, ideal para un estilo urbano y casual.",
+      "precioBolivianos": 95
     },
     {
-      "nombre": "Pantalón jean clásico",
+      "id": "jean-clasico",
+      "nombre": "Jean clásico",
       "categoria": "Pantalones",
-      "descripcion": "Jean clásico de corte recto, disponible en varias tallas.",
-      "precio": 180,
-      "moneda": "Bs",
-      "stock": 14
+      "descripcion": "Pantalón jean de corte clásico, disponible en diferentes tallas.",
+      "precioBolivianos": 180
     },
     {
+      "id": "pantalon-cargo",
       "nombre": "Pantalón cargo",
       "categoria": "Pantalones",
       "descripcion": "Pantalón cargo con múltiples bolsillos y diseño urbano.",
-      "precio": 210,
-      "moneda": "Bs",
-      "stock": 10
+      "precioBolivianos": 210
     },
     {
+      "id": "buzo-deportivo",
       "nombre": "Buzo deportivo",
       "categoria": "Buzos",
-      "descripcion": "Buzo deportivo cómodo para entrenamiento o uso diario.",
-      "precio": 160,
-      "moneda": "Bs",
-      "stock": 20
+      "descripcion": "Buzo deportivo cómodo y versátil para entrenamiento o uso diario.",
+      "precioBolivianos": 160
     },
     {
+      "id": "hoodie-capucha",
       "nombre": "Hoodie con capucha",
-      "categoria": "Poleras",
-      "descripcion": "Hoodie de algodón con capucha y diseño moderno.",
-      "precio": 190,
-      "moneda": "Bs",
-      "stock": 16
+      "categoria": "Buzos",
+      "descripcion": "Hoodie abrigado con capucha, ideal para días fríos.",
+      "precioBolivianos": 190
     },
     {
+      "id": "camisa-casual",
+      "nombre": "Camisa casual",
+      "categoria": "Camisas",
+      "descripcion": "Camisa casual de manga larga para ocasiones informales.",
+      "precioBolivianos": 140
+    },
+    {
+      "id": "gorra-urbana",
       "nombre": "Gorra urbana",
       "categoria": "Accesorios",
-      "descripcion": "Gorra ajustable con diseño urbano.",
-      "precio": 60,
-      "moneda": "Bs",
-      "stock": 22
-    },
-    {
-      "nombre": "Bufanda de invierno",
-      "categoria": "Accesorios",
-      "descripcion": "Bufanda abrigada ideal para el clima frío de La Paz.",
-      "precio": 55,
-      "moneda": "Bs",
-      "stock": 17
+      "descripcion": "Gorra ajustable con diseño urbano y moderno.",
+      "precioBolivianos": 60
     }
-  ],
-  "formasPago": [
-    "Efectivo",
-    "QR",
-    "Transferencia bancaria"
-  ],
-  "envio": {
-    "disponible": true,
-    "costo": 15,
-    "moneda": "Bs",
-    "zona": "La Paz y El Alto"
-  }
+  ]
 }
