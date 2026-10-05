@@ -1,0 +1,44 @@
+{
+  "slug": "gestiona-facil",
+  "nombre": "Gestiona Fácil",
+  "rubro": "Software de gestión empresarial",
+  "distrito": "Sucre",
+  "descripcion": "Sistema SaaS para pequeños y medianos negocios que permite controlar inventario, registrar ventas y emitir facturas electrónicas de forma sencilla, desde cualquier dispositivo y sin necesidad de instalar programas.",
+  "telefonoWhatsapp": "59170012345",
+  "colorMarca": "#2563eb",
+  "horario": {
+    "lunes": { "abre": "08:00", "cierra": "18:00" },
+    "martes": { "abre": "08:00", "cierra": "18:00" },
+    "miercoles": { "abre": "08:00", "cierra": "18:00" },
+    "jueves": { "abre": "08:00", "cierra": "18:00" },
+    "viernes": { "abre": "08:00", "cierra": "18:00" },
+    "sabado": { "abre": "09:00", "cierra": "13:00" },
+    "domingo": { "cerrado": true }
+  },
+  "servicios": [
+    {
+      "id": "plan-basico",
+      "nombre": "Plan Básico",
+      "duracionMin": 0,
+      "precioSoles": 49
+    },
+    {
+      "id": "plan-negocio",
+      "nombre": "Plan Negocio",
+      "duracionMin": 0,
+      "precioSoles": 89
+    },
+    {
+      "id": "plan-profesional",
+      "nombre": "Plan Profesional",
+      "duracionMin": 0,
+      "precioSoles": 149
+    },
+    {
+      "id": "implementacion",
+      "nombre": "Implementación y configuración",
+      "duracionMin": 120,
+      "precioSoles": 150
+    }
+  ]
+}
