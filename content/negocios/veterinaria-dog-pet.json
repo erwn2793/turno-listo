@@ -1,0 +1,25 @@
+{
+  "slug": "veterinaria-dog-pet",
+  "nombre": "Veterinaria Dog-Pet",
+  "rubro": "Veterinaria",
+  "distrito": "Barranco",
+  "descripcion": "Atención integral para tu mascota: consultas, vacunas y emergencias. Dog-Pet cuida a perros y gatos desde 2010, con especialistas en salud animal y servicio de guardia.",
+  "telefonoWhatsapp": "51912345678",
+  "colorMarca": "#2563eb",
+  "horario": {
+    "lunes": { "abre": "08:00", "cierra": "20:00" },
+    "martes": { "abre": "08:00", "cierra": "20:00" },
+    "miercoles": { "abre": "08:00", "cierra": "20:00" },
+    "jueves": { "abre": "08:00", "cierra": "20:00" },
+    "viernes": { "abre": "08:00", "cierra": "20:00" },
+    "sabado": { "abre": "09:00", "cierra": "18:00" },
+    "domingo": { "abre": "09:00", "cierra": "14:00" }
+  },
+  "servicios": [
+    { "id": "consulta-general", "nombre": "Consulta general", "duracionMin": 30, "precioSoles": 50 },
+    { "id": "vacunacion", "nombre": "Vacunación", "duracionMin": 20, "precioSoles": 40 },
+    { "id": "desparasitacion", "nombre": "Desparasitación", "duracionMin": 15, "precioSoles": 35 },
+    { "id": "emergencia", "nombre": "Atención de emergencia", "duracionMin": 60, "precioSoles": 120 },
+    { "id": "baño-corte", "nombre": "Baño y corte de pelo", "duracionMin": 45, "precioSoles": 70 }
+  ]
+}
