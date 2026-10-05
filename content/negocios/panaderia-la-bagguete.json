@@ -1,0 +1,24 @@
+{
+  "slug": "panaderia-la-bagguete",
+  "nombre": "Panaderia La Baguette",
+  "rubro": "Barbería",
+  "distrito": "Surquillo",
+  "descripcion": "Cortes clásicos y barba al paso, a dos cuadras del mercado de Surquillo. Don Lucho atiende desde 1998 y ahora puedes separar tu hora sin llamar.",
+  "telefonoWhatsapp": "51987654321",
+  "colorMarca": "#9a3412",
+  "horario": {
+    "lunes": { "abre": "09:00", "cierra": "20:00" },
+    "martes": { "abre": "09:00", "cierra": "20:00" },
+    "miercoles": { "abre": "09:00", "cierra": "20:00" },
+    "jueves": { "abre": "09:00", "cierra": "20:00" },
+    "viernes": { "abre": "09:00", "cierra": "20:00" },
+    "sabado": { "abre": "09:00", "cierra": "20:00" },
+    "domingo": { "cerrado": true }
+  },
+  "servicios": [
+    { "id": "corte-clasico", "nombre": "Corte clásico", "duracionMin": 30, "precioSoles": 25 },
+    { "id": "corte-barba", "nombre": "Corte y barba", "duracionMin": 45, "precioSoles": 40 },
+    { "id": "afeitado", "nombre": "Afeitado con toalla caliente", "duracionMin": 30, "precioSoles": 20 },
+    { "id": "corte-nino", "nombre": "Corte niño", "duracionMin": 25, "precioSoles": 18 }
+  ]
+}
