@@ -1,94 +1,54 @@
 {
   "slug": "tienda-moda-urbana",
+
   "nombre": "Moda Urbana",
+
   "rubro": "Tienda de ropa",
+
   "distrito": "Sopocachi",
-  "descripcion": "Tienda de ropa urbana y casual en Sopocachi. Encuentra chamarras, poleras, pantalones, buzos y prendas de temporada con diseños modernos y precios accesibles.",
+
+  "descripcion": "Ropa urbana y casual para jóvenes y adultos, a una cuadra de la plaza Abaroa. Encuentra chamarras, poleras, pantalones y buzos con diseños modernos y precios accesibles.",
 
   "telefonoWhatsapp": "59171234567",
 
   "colorMarca": "#1e3a5f",
 
   "horario": {
+
     "lunes": { "abre": "09:00", "cierra": "20:00" },
+
     "martes": { "abre": "09:00", "cierra": "20:00" },
+
     "miercoles": { "abre": "09:00", "cierra": "20:00" },
+
     "jueves": { "abre": "09:00", "cierra": "20:00" },
+
     "viernes": { "abre": "09:00", "cierra": "20:00" },
+
     "sabado": { "abre": "09:00", "cierra": "20:00" },
+
     "domingo": { "cerrado": true }
+
   },
 
   "productos": [
-    {
-      "id": "chamarra-cuero",
-      "nombre": "Chamarra de cuero",
-      "categoria": "Chamarras",
-      "descripcion": "Chamarra de cuero sintético con diseño moderno, ideal para uso casual.",
-      "precioBolivianos": 320
-    },
-    {
-      "id": "chamarra-abrigo",
-      "nombre": "Chamarra acolchada",
-      "categoria": "Chamarras",
-      "descripcion": "Chamarra acolchada para clima frío, disponible en diferentes tallas y colores.",
-      "precioBolivianos": 280
-    },
-    {
-      "id": "polera-basica",
-      "nombre": "Polera básica",
-      "categoria": "Poleras",
-      "descripcion": "Polera de algodón de corte clásico, disponible en varios colores.",
-      "precioBolivianos": 75
-    },
-    {
-      "id": "polera-oversize",
-      "nombre": "Polera Oversize",
-      "categoria": "Poleras",
-      "descripcion": "Polera de corte oversize, ideal para un estilo urbano y casual.",
-      "precioBolivianos": 95
-    },
-    {
-      "id": "jean-clasico",
-      "nombre": "Jean clásico",
-      "categoria": "Pantalones",
-      "descripcion": "Pantalón jean de corte clásico, disponible en diferentes tallas.",
-      "precioBolivianos": 180
-    },
-    {
-      "id": "pantalon-cargo",
-      "nombre": "Pantalón cargo",
-      "categoria": "Pantalones",
-      "descripcion": "Pantalón cargo con múltiples bolsillos y diseño urbano.",
-      "precioBolivianos": 210
-    },
-    {
-      "id": "buzo-deportivo",
-      "nombre": "Buzo deportivo",
-      "categoria": "Buzos",
-      "descripcion": "Buzo deportivo cómodo y versátil para entrenamiento o uso diario.",
-      "precioBolivianos": 160
-    },
-    {
-      "id": "hoodie-capucha",
-      "nombre": "Hoodie con capucha",
-      "categoria": "Buzos",
-      "descripcion": "Hoodie abrigado con capucha, ideal para días fríos.",
-      "precioBolivianos": 190
-    },
-    {
-      "id": "camisa-casual",
-      "nombre": "Camisa casual",
-      "categoria": "Camisas",
-      "descripcion": "Camisa casual de manga larga para ocasiones informales.",
-      "precioBolivianos": 140
-    },
-    {
-      "id": "gorra-urbana",
-      "nombre": "Gorra urbana",
-      "categoria": "Accesorios",
-      "descripcion": "Gorra ajustable con diseño urbano y moderno.",
-      "precioBolivianos": 60
-    }
+
+    { "id": "chamarra-cuero", "nombre": "Chamarra de cuero", "talla": "S, M, L, XL", "precioBolivianos": 320 },
+
+    { "id": "chamarra-acolchada", "nombre": "Chamarra acolchada", "talla": "S, M, L, XL", "precioBolivianos": 280 },
+
+    { "id": "polera-basica", "nombre": "Polera básica de algodón", "talla": "S, M, L, XL", "precioBolivianos": 75 },
+
+    { "id": "polera-oversize", "nombre": "Polera oversize", "talla": "S, M, L, XL", "precioBolivianos": 95 },
+
+    { "id": "jean-clasico", "nombre": "Jean clásico", "talla": "28, 30, 32, 34, 36", "precioBolivianos": 180 },
+
+    { "id": "pantalon-cargo", "nombre": "Pantalón cargo", "talla": "28, 30, 32, 34, 36", "precioBolivianos": 210 },
+
+    { "id": "buzo-deportivo", "nombre": "Buzo deportivo", "talla": "S, M, L, XL", "precioBolivianos": 160 },
+
+    { "id": "hoodie", "nombre": "Hoodie con capucha", "talla": "S, M, L, XL", "precioBolivianos": 190 }
+
   ]
+
 }
