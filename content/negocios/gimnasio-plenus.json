@@ -1,0 +1,24 @@
+{
+  "slug": "gimnasio-plenus",
+  "nombre": "Plenus Gym",
+  "rubro": "gimnasio",
+  "distrito": "La Paz",
+  "descripcion": "Gimnasio para atletas con búsqueda de mejorar su salud.",
+  "telefonoWhatsapp": "59170222222",
+  "colorMarca": "#9a3412",
+  "horario": {
+    "lunes": { "abre": "06:00", "cierra": "22:00" },
+    "martes": { "abre": "06:00", "cierra": "22:00" },
+    "miercoles": { "abre": "06:00", "cierra": "22:00" },
+    "jueves": { "abre": "06:00", "cierra": "22:00" },
+    "viernes": { "abre": "06:00", "cierra": "22:00" },
+    "sabado": { "abre": "06:00", "cierra": "22:00" },
+    "domingo": { "cerrado": true }
+  },
+  "servicios": [
+    { "id": "crossfit", "nombre": "Crossfit", "duracionMin": 60, "precioSoles": 50 },
+    { "id": "pesas", "nombre": "Pesas", "duracionMin": 60, "precioSoles": 40 },
+    { "id": "zumba", "nombre": "Zumba", "duracionMin": 60, "precioSoles": 30 },
+    { "id": "spinning", "nombre": "Spinning", "duracionMin": 60, "precioSoles": 40 }
+  ]
+}
