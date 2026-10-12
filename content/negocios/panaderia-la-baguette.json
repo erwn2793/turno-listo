@@ -1,0 +1,24 @@
+{
+  "slug": "panaderia-la-baguette",
+  "nombre": "Panadería La Baguette",
+  "rubro": "Panadería",
+  "distrito": "Surquillo",
+  "descripcion": "Panadería artesanal con productos frescos y deliciosos. Don Lucho atiende desde 1998 y ahora puedes separar tu hora sin llamar.",
+  "telefonoWhatsapp": "51987654321",
+  "colorMarca": "#9a3412",
+  "horario": {
+    "lunes": { "abre": "09:00", "cierra": "20:00" },
+    "martes": { "abre": "09:00", "cierra": "20:00" },
+    "miercoles": { "abre": "09:00", "cierra": "20:00" },
+    "jueves": { "abre": "09:00", "cierra": "20:00" },
+    "viernes": { "abre": "09:00", "cierra": "20:00" },
+    "sabado": { "abre": "09:00", "cierra": "20:00" },
+    "domingo": { "cerrado": true }
+  },
+  "servicios": [
+    { "id": "pan-cuarto", "nombre": "Pan cuarto", "duracionMin": 5, "precioSoles": 2 },
+    { "id": "pan-completo", "nombre": "Pan completo", "duracionMin": 5, "precioSoles": 3 },
+    { "id": "pan-de-rosa", "nombre": "Pan de rosa", "duracionMin": 5, "precioSoles": 4 },
+    { "id": "pan-de-azucar", "nombre": "Pan de azúcar", "duracionMin": 5, "precioSoles": 3 }
+  ]
+}
